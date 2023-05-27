@@ -2,7 +2,7 @@
   "name": "@foundryvtt/foundryvtt-cli",
   "productName": "Foundry VTT CLI",
   "description": "The Official CLI for Foundry VTT",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "author": {
     "name": "Foundry Gaming LLC",
     "email": "admin@foundryvtt.com",
@@ -11,6 +11,9 @@
   "main": "fvtt.mjs",
   "bin": {
     "fvtt": "fvtt.mjs"
+  },
+  "exports": {
+	".": "./fvtt.mjs"
   },
   "homepage": "https://foundryvtt.com",
   "license": "MIT",
